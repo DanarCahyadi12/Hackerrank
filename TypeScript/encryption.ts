@@ -15,7 +15,7 @@ function encryption(s: string): string {
         row = Math.floor(root)
         col = row + 1
     }
-    console.log("row : ",row, "col : ",col)
+
     if((row * col ) >= lengthString) {
 
         for(let i = 0; i < lengthString; i++) {
